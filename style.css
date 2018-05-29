@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00437a;
+    /*background-image: url(https://images.unsplash.com/photo-1518773553398-650c184e0bb3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3968cdc236856e1ddb63a975de74074f&auto=format&fit=crop&w=500&q=60);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#app {
+    display: flex;
+    height: 95vh;
+    width: 50vw;
+    background: linear-gradient(260deg, #e5e7e8, #6c6e70);
+    box-shadow: 30px 20px 20px #111010;
+    border-radius: 2px;
+}
+
+.header {
+    background-color: red;
+}
