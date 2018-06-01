@@ -8,11 +8,12 @@ const content = {
 	courses: 'Additional courses',
 	interests: 'Interests',
 	footer: 'Permition'
-
 }
+
 const cv = React.createElement ('div', {},
-			React.createElement ('h3', {}, content.title + 'Curiculum');
-	);
+			//function() {
+			 //return React.createElement ('h3', {}, content.title + 'Curiculum');
+		}
 
 const appRoot = document.getElementById('app');
 ReactDOM.render(cv, appRoot);
