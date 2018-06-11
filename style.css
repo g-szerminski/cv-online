@@ -92,7 +92,7 @@ header h3 {
     transition: background-position .8s ease;
 }
 
-.line:hover { background-position: 600px 0; }
+.line:hover { background-position: 580px 0; }
 
 header p {
     display: flex;
@@ -102,8 +102,9 @@ header p {
     margin-right: 10px;
 }
 
-p:hover {
-    transform: scale(1.4);
+.about:hover {
+    transform: scale(1.3);
     transition: transform 1s;
     background-color: #111111;
+    padding: 10px;
 }
