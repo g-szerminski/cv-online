@@ -108,3 +108,21 @@ header p {
     background-color: #111111;
     padding: 10px;
 }
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    ackground-image: url(https://cdn.stocksnap.io/img-thumbs/280h/094FC81580.jpg);   
+    background: linear-gradient(260deg, #01890f, #100560);
+    opacity: 0.7;
+    height: 150px;
+    width: 100%;
+    position: relative;
+}
+
+.nav img {
+    display: flex;
+    height: 150px;
+    filter: grayscale(1);
+    position: relative;
+}
