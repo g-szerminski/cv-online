@@ -7,51 +7,52 @@
 body {
     margin: 0;
     padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin: 0 auto;
     text-align: center;
     background: linear-gradient(260deg, #01890f, #052dbc);
     height: 100vh;
+    width: 100vw;
     font-family: 'Open Sans', sans-serif;
     /*background-image: url(https://images.unsplash.com/photo-1518773553398-650c184e0bb3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3968cdc236856e1ddb63a975de74074f&auto=format&fit=crop&w=500&q=60);*/
 }
 
 .cv {
-    display: flex;
-    justify-content: center;
+    display: block;
+    margin-top: 20px;
     height: 90%;
     background: linear-gradient(260deg, #e5e7e8, #6c6e70);
     box-shadow: -30px 20px 20px #111010;
     border-radius: 2px;
+    position: relative;
 }
 
 .container {
+    position: relative; 
     width: 100%;
-    max-width: 600px;
+    max-width: 700px;
     margin: 0 auto;
 }
 
 header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 230px;
+    height: 30%;
     text-align: left;
     background-color: #111111;
     background-size: cover;
     background-position: center;
+    padding: 20px;
 }
 
 .photo {
-    display: flex;
-    align-items: center;
+    display: block;
+    float: left;
+    margin: auto 5%;
+    margin-right: 20px;
+    margin-bottom: 5%;
+    margin-top: 5%; 
     justify-content: center;
     width: 140px;
     height: 140px;
     border-radius: 50%;
-    margin-right: 35px;
-    margin-left: 35px;
     background: linear-gradient(260deg, #01890f, #052dbc);
 }
 
@@ -60,14 +61,17 @@ header img {
     cursor: pointer;
     width: 130px;
     height: 130px;
+    margin-left: 5px;
+    margin-top: 5px;
 }
 
 header img:hover {
     height: 160px;
     width: 160px;
+    margin-left: -5px;
+    margin-top: -5px;
     transform: rotate(360deg);
     transition: transform 2s;
-    position: absolute;
 }
 
 header h2 {
@@ -95,34 +99,35 @@ header h3 {
 .line:hover { background-position: 580px 0; }
 
 header p {
-    display: flex;
+    display: block;
     color: #fff;
-    font-size: 80%;
+    font-size: 70%;
     margin-top: 2px;
     margin-right: 10px;
+    margin-left: 10px;
 }
 
-.about:hover {
+header:hover {
     transform: scale(1.3);
     transition: transform 1s;
     background-color: #111111;
     padding: 10px;
+    margin-top: 10px;
 }
 
 .nav {
-    display: flex;
-    flex-direction: column;
-    ackground-image: url(https://cdn.stocksnap.io/img-thumbs/280h/094FC81580.jpg);   
     background: linear-gradient(260deg, #01890f, #100560);
     opacity: 0.7;
     height: 150px;
-    width: 100%;
+    min-width: 100px;
     position: relative;
+    width: 100%;
 }
 
 .nav img {
-    display: flex;
+    position: relative;
+    margin-top: 100px;
     height: 150px;
     filter: grayscale(1);
-    position: relative;
+    width: 100%;
 }
