@@ -18,7 +18,7 @@ body {
 
 .cv {
     display: block;
-    margin-top: 20px;
+    top: 3%;
     height: 90%;
     background: linear-gradient(260deg, #e5e7e8, #6c6e70);
     box-shadow: -30px 20px 20px #111010;
@@ -26,8 +26,7 @@ body {
     position: relative;
 }
 
-.container {
-    position: relative; 
+.container { 
     width: 100%;
     max-width: 700px;
     margin: 0 auto;
@@ -45,10 +44,11 @@ header {
 .photo {
     display: block;
     float: left;
+    position: relative;
+    top: 30px;
+    left: -10px;
     margin: auto 5%;
-    margin-right: 20px;
-    margin-bottom: 5%;
-    margin-top: 5%; 
+    margin-bottom: 7%;
     justify-content: center;
     width: 140px;
     height: 140px;
@@ -113,21 +113,22 @@ header:hover {
     background-color: #111111;
     padding: 10px;
     margin-top: 10px;
+    position: static;
 }
 
 .nav {
     background: linear-gradient(260deg, #01890f, #100560);
-    opacity: 0.7;
+    pacity: 0.7;
     height: 150px;
     min-width: 100px;
-    position: relative;
+    osition: relative;
     width: 100%;
 }
 
 .nav img {
     position: relative;
-    margin-top: 100px;
     height: 150px;
     filter: grayscale(1);
     width: 100%;
+    opacity: 0.1;
 }
