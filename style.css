@@ -13,17 +13,19 @@ body {
     height: 100vh;
     width: 100vw;
     font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
     /*background-image: url(https://images.unsplash.com/photo-1518773553398-650c184e0bb3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3968cdc236856e1ddb63a975de74074f&auto=format&fit=crop&w=500&q=60);*/
 }
 
 .cv {
+    position: relative;
     display: block;
     top: 3%;
     height: 90%;
     background: linear-gradient(260deg, #e5e7e8, #6c6e70);
     box-shadow: -30px 20px 20px #111010;
     border-radius: 2px;
-    position: relative;
+    
 }
 
 .container { 
@@ -33,22 +35,19 @@ body {
 }
 
 header {
-    height: 30%;
+    height: auto;
     text-align: left;
     background-color: #111111;
-    background-size: cover;
-    background-position: center;
     padding: 20px;
 }
 
 .photo {
-    display: block;
     float: left;
     position: relative;
     top: 30px;
     left: -10px;
-    margin: auto 5%;
-    margin-bottom: 7%;
+    margin: 0 auto ;
+    margin: 0 10px 10% 10px;
     justify-content: center;
     width: 140px;
     height: 140px;
@@ -61,21 +60,21 @@ header img {
     cursor: pointer;
     width: 130px;
     height: 130px;
-    margin-left: 5px;
-    margin-top: 5px;
+    position: relative;
+    top: 5px;
+    left: 5px;
 }
 
 header img:hover {
     height: 160px;
     width: 160px;
-    margin-left: -5px;
-    margin-top: -5px;
+    top: -5px;
+    left: -5px;
     transform: rotate(360deg);
     transition: transform 2s;
 }
 
 header h2 {
-    display: flex;
     color: white;
     margin-top: 0;
     margin-right: 20px;
@@ -83,7 +82,6 @@ header h2 {
 }
 
 header h3 {
-    display: flex;
     margin-top: 0;
     margin-bottom: 0;
     color: #fff;
@@ -99,7 +97,6 @@ header h3 {
 .line:hover { background-position: 580px 0; }
 
 header p {
-    display: block;
     color: #fff;
     font-size: 70%;
     margin-top: 2px;
@@ -117,6 +114,10 @@ header:hover {
 }
 
 .nav {
+    display: flex;
+    osition: relative;
+    align-items: center;
+    justify-content: center;
     background: linear-gradient(260deg, #01890f, #100560);
     pacity: 0.7;
     height: 150px;
@@ -131,4 +132,49 @@ header:hover {
     filter: grayscale(1);
     width: 100%;
     opacity: 0.1;
+}
+
+.icon-btn {
+    width: 10%;
+}
+
+.github {
+    position: absolute;
+    height: 20px;
+    opacity: 0.5;
+}
+
+.google-plus {
+    position: absolute;
+    height: 20px;
+    left: 70px;
+    opacity: 0.5;
+}
+
+.linkedin {
+    position: absolute;
+    height: 20px;
+    right: 70px;
+    opacity: 0.5;
+}
+
+.google-plus:hover {
+    background: red;
+    color: #fff;
+    transform: scale(1.3); 
+    transition: transform 0.5s;
+}
+
+.github:hover {
+    background: black;
+    color: #fff;
+    transform: scale(1.3); 
+    transition: transform 0.5s;   
+}
+
+.linkedin:hover {
+    background: blue;
+    color: #fff;  
+    transform: scale(1.3); 
+    transition: transform 0.5s;
 }
