@@ -116,7 +116,7 @@ header:hover {
 .nav {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     background: linear-gradient(260deg, #01890f, #100560);
     height: 150px;
     min-width: 100px;
@@ -124,7 +124,7 @@ header:hover {
 }
 
 .nav img {
-    position: relative;
+    position: absolute;
     height: 150px;
     filter: grayscale(1);
     width: 100%;
