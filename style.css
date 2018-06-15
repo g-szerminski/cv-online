@@ -134,7 +134,7 @@ header:hover {
 a {
     argin: 0;
     adding: 0;
-    position: absolute;
+    osition: absolute;
 }
 
 .icon-btn {
@@ -142,14 +142,14 @@ a {
 }
 
 .github {
-    position: absolute;
+    osition: absolute;
     height: 20px;
     width: 40px;
     opacity: 0.5;
 }
 
 .google-plus {
-    position: absolute;
+    osition: absolute;
     height: 20px;
     width: 40px;
     left: 70px;
@@ -157,7 +157,7 @@ a {
 }
 
 .linkedin {
-    position: absolute;
+    osition: absolute;
     height: 20px;
     width: 40px;
     right: 50px;
