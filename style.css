@@ -163,6 +163,7 @@ a {
     width: 40px;
     right: 50px;
     opacity: 0.5;
+    color: #fff;
 
 }
 
@@ -194,4 +195,12 @@ form {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.material-icons {
+    position: relative;
+}
+
+glyphicon glyphicon-camera {
+    position: relative;
 }
