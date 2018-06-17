@@ -63,6 +63,7 @@ header img {
     position: relative;
     top: 5px;
     left: 5px;
+    transform: rotate(-10deg);
 }
 
 header img:hover {
@@ -70,7 +71,7 @@ header img:hover {
     width: 160px;
     top: -5px;
     left: -5px;
-    transform: rotate(360deg);
+    transform: rotate(350deg);
     transition: transform 2s;
 }
 
@@ -115,7 +116,7 @@ header:hover {
 
 .nav {
     display: flex;
-    align-items: center;
+    align-items: top;
     justify-content: space-around;
     background: linear-gradient(260deg, #01890f, #100560);
     height: 150px;
@@ -139,56 +140,48 @@ a {
 }
 
 .icon-btn {
-    width: 10%;
+    idth: 10%;
+    color: #fff;
+    margin-top: 20px;
+    opacity: 0.5;
+    height: 40px;
+    width: 40px;
+    right: 50px;
 }
 
-.github {
-    osition: absolute;
+.icon-btn:hover {
+    transform: scale(1.3);
+    transition: transform 0.5s;
+    border: 0;
+}
+
+/*.github {
     height: 20px;
     width: 40px;
-    opacity: 0.5;
 }
 
 .google-plus {
-    osition: absolute;
     height: 20px;
     width: 40px;
     left: 70px;
-    opacity: 0.5;
 }
 
 .linkedin {
-    osition: absolute;
-    height: 20px;
+    height: 40px;
     width: 40px;
     right: 50px;
-    opacity: 0.5;
-    color: #fff;
-
-}
+}*/
 
 .google-plus:hover {
     background: red;
-    color: #fff;
-    transform: scale(1.3); 
-    transition: transform 0.5s;
-    border: solid 0.5px;
 }
 
 .github:hover {
     background: black;
-    color: #fff;
-    transform: scale(1.3); 
-    transition: transform 0.5s;  
-    border: solid 0.5px; 
 }
 
 .linkedin:hover {
-    background: blue;
-    color: #fff;  
-    transform: scale(1.3); 
-    transition: transform 0.5s;
-    border: solid 0.5px;
+    background: blue;  
 }
 
 form {
@@ -197,10 +190,14 @@ form {
     align-items: center;
 }
 
+
+
+
+
 .material-icons {
     position: relative;
 }
 
-glyphicon glyphicon-camera {
+.glyphicon glyphicon-camera {
     position: relative;
 }
