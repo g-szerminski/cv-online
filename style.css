@@ -2,11 +2,11 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
     
 body {
-    margin: 0;
-    padding: 0;
     margin: 0 auto;
     text-align: center;
     background: linear-gradient(260deg, #01890f, #052dbc);
@@ -18,6 +18,11 @@ body {
 }
 
 .cv {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     display: block;
     top: 3%;
@@ -28,7 +33,7 @@ body {
     
 }
 
-.container { 
+.container {
     width: 100%;
     max-width: 700px;
     margin: 0 auto;
@@ -44,10 +49,10 @@ header {
 .photo {
     float: left;
     position: relative;
-    top: 30px;
+    top: 0px;
     left: -10px;
     margin: 0 auto ;
-    margin: 0 10px 10% 10px;
+    margin: 0 10px 0% 10px;
     justify-content: center;
     width: 140px;
     height: 140px;
@@ -72,7 +77,7 @@ header img:hover {
     top: -5px;
     left: -5px;
     transform: rotate(350deg);
-    transition: transform 2s;
+    transition: transform 1s;
 }
 
 header h2 {
@@ -95,8 +100,6 @@ header h3 {
     transition: background-position .8s ease;
 }
 
-.line:hover { background-position: 580px 0; }
-
 header p {
     color: #fff;
     font-size: 70%;
@@ -106,21 +109,23 @@ header p {
 }
 
 header:hover {
-    transform: scale(1.3);
-    transition: transform 1s;
-    background-color: #111111;
-    padding: 10px;
-    margin-top: 10px;
-    position: static;
+    ransform: scale(1.3);
+    ransition: transform 1s;
+    adding: 10px;
+    argin-top: 10px;
 }
 
 .nav {
+    position: relative;
     display: flex;
+    align-items: center;
     justify-content: space-around;
     background: linear-gradient(260deg, #01890f, #100560);
     height: 150px;
     min-width: 100px;
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .nav img {
@@ -132,24 +137,36 @@ header:hover {
 }
 
 a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-decoration: none;
+}
+
+h6 {
+    color: #fff;
+    opacity: 0.5;
+    font-size: 10px;
 }
 
 .icon-btn {
     color: #fff;
-    margin-top: 10px;
+    argin-top: 10px;
     opacity: 0.5;
     height: 40px;
     width: 40px;
     right: 50px;
     font-size: 20px;
+    border: 0.5px solid #fff;
+    border-radius: 50%;
 }
 
-.icon-btn:hover {
+a:hover, .contact:hover {
     transform: scale(1.3);
     transition: transform 0.5s;
-    border: 0;
-    border-radius: 5px;
+    border: solid 0.5 #fff;
+    border-radius: 50%;
+    text-decoration: none;
 }
 
 .google-plus:hover {
@@ -165,7 +182,11 @@ a {
 }
 
 .male:hover {
-    background: #0ea9ba;
+    background: #126625;
+}
+
+.address-card-o:hover {
+    background-color: #0ad4fc;
 }
 
 form {
@@ -173,8 +194,6 @@ form {
     justify-content: center;
     align-items: center;
 }
-
-
 
 
 
