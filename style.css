@@ -241,6 +241,10 @@ h5::after {
     background: linear-gradient(260deg, #01890f, #100560);
 }
 
+h5 ~ ul {
+    margin-bottom: 20px;
+}
+
 ul {
     margin-left: 20px;
     margin-bottom: 10px;
