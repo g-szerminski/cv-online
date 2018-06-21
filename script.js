@@ -1,20 +1,15 @@
-const content = {
-	title: 'Curiculum Vitae',
-	header: 'Header',
-	about: 'About Me',
-	skils: 'Skils',
-	language: 'Languages',
-	education: 'Education',
-	courses: 'Additional courses',
-	interests: 'Interests',
-	footer: 'Permition'
-}
-
-const cv = React.createElement ('div', {},
-			//function() {
-			 //return React.createElement ('h3', {}, content.title + 'Curiculum');
-		}
-
-const appRoot = document.getElementById('app');
-ReactDOM.render(cv, appRoot);
-//ReactDOM.render(template, appRoot);
+$("#header").on('click', function(){
+    $(this).animate({
+            height:200,
+            width:400,
+            opacity: 0.5
+        },
+        {
+            duration: 1000, //czas animacji
+            easing: 'easeOutBounce', //typ animacji
+            complete: function() { //funkcja zwrotna
+                alert("koniec animacji");
+            }
+        }
+    );
+});
