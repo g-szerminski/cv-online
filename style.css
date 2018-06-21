@@ -32,7 +32,7 @@ body {
     position: relative;
     display: block;
     top: 3%;
-    height: 90%;
+    height: auto;
     background: linear-gradient(260deg, #e5e7e8, #6c6e70);
     box-shadow: -30px 20px 20px #111010;
     border-radius: 2px;    
@@ -239,4 +239,19 @@ h5::after {
     width: 100%;
     margin-left: 10px;
     background: linear-gradient(260deg, #01890f, #100560);
+}
+
+ul {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+li p {
+    text-align: left;
+}
+
+h4 {
+    margin-top: 10px;
+    text-align: left;
+    color: black;
 }
