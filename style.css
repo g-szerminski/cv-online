@@ -39,7 +39,7 @@ body {
 
 .container {
     width: 100%;
-    max-width: 700px;
+    max-width: 800px;
     margin: auto;
 }   
 
@@ -62,10 +62,6 @@ header {
     border-radius: 50%;
     background: linear-gradient(260deg, #01890f, #052dbc);
 }
-
-/*.about {
-    display: block;
-}*/
 
 header img {
     border-radius: 50%;
@@ -228,7 +224,6 @@ h5 {
     margin-top: 10px;
     text-transform: uppercase;
     font-size: 20px;
-    ext-shadow: 2px 2px #544e4e;
 }
 
 h5::after {
@@ -260,7 +255,12 @@ h4 {
     color: black;
 }
 
-.skils ul{
+.skils {
     display: flex;
-    align-items: flex-start;
+    text-align: left;
+}
+
+.skils ul {
+    margin-right: 10px;
+    margin-top: 10px;
 }
