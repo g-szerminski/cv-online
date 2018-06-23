@@ -14,7 +14,7 @@ body {
     height: auto;
     width: 100vw;
     font-family: 'Open Sans', sans-serif;
-    verflow: hidden;
+    overflow-x: hidden;
     /*background-image: url(https://images.unsplash.com/photo-1518773553398-650c184e0bb3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3968cdc236856e1ddb63a975de74074f&auto=format&fit=crop&w=500&q=60);*/
 }
 
