@@ -1,11 +1,11 @@
-$("#animated").on('click', function(){
+$("#header").on('click', function(){
     $(this).animate({
             height:200,
             width:400,
             opacity: 0.5
         },
         {
-            duration: 5000, //czas animacji
+            duration: 1000, //czas animacji
             easing: 'easeOutBounce', //typ animacji
             complete: function() { //funkcja zwrotna
                 alert("koniec animacji");
@@ -14,4 +14,10 @@ $("#animated").on('click', function(){
     );
 });
 
-var paragraphs = $('p, li').css('color', 'red');
+var paragraphs = $('p, li').css('color', 'green');
+
+$(document).ready(function() {
+  $("address-card-o").click(function() {
+    alert("Witaj, świecie!");
+  });
+});
