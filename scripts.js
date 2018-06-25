@@ -13,3 +13,5 @@ $("#header").on('click', function(){
         }
     );
 });
+
+var paragraphs = $('p, li').css('color', 'red');

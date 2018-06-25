@@ -4,20 +4,33 @@
         <meta charset="UTF=8">
         <title>CV dynamic</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Icons -->        
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- jQuery -->
+        <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+        <!-- or -->
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+<!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<!-- CSS -->
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     
     <body>
         <section class="cv container">
-            <header id="header">
+            <header>
                 <div class="photo">
                     <img src="http://gdurl.com/yPnz" title="Hi. It's me :-)">
                 </div> 
                 <div class="about">
-                    <h2>GRZEGORZ SZERMIŃSKI</h2>
+                    <h2 id="gs" class="nimated infinite bounce">GRZEGORZ SZERMIŃSKI</h2>
                     <h3>WEB DEVELOPER</h3>
-                    <div class="line"></div>
                     <p>
                         Już w wieku 12 lat zacząłem interesować się programowaniem. Niestety w tym czasie mało było dostępnych materiałów na ten temat, zwłaszcza 
                         w języku polskim.
@@ -60,16 +73,15 @@
                         <i class="fa fa-address-card-o"></i>            
                     </form>
                     <h6>Contact</h6>
-                </div> 
+                </div>
             </div>
             <div class="career">
                 <div class="col-left">
-                    <h5>Doświadczenie</h5>
+                    <h3>Doświadczenie</h3>
                     <div class="experience">
-                        
                         <ul>
                             <li>
-                                <h4>01/2013 – obecnie</h4>
+                                <h5>01/2013 – obecnie</h5>
                                 <p>
                                     Kierowca Kat. C
                                     Stokrotka Sp. z o.o.
@@ -77,7 +89,7 @@
                                 </p>
                             </li>
                             <li>
-                                <h4>08/2001 – 01/2013</h4>
+                                <h5>08/2001 – 01/2013</h5>
                                 <p>
                                     W tym okresie wykonywałem różne zawody:<br> prowadziłem
                                     własny ośrodek szkolenia kierowców, byłem instruktorem
@@ -88,8 +100,9 @@
                             </li>
                         </ul>
                     </div>
-                    <h5>Języki</h5> 
-                    <div class="language">                    
+                   
+                    <div class="language">  
+                     <h3>Języki</h3>                   
                         <ul>
                             <li>
                                 <p>j. angielski - poziom B2</p>
@@ -101,7 +114,7 @@
                     </div>    
                 </div>        
                 <div class="col-right">
-                    <h5>Umiejętności</h5>
+                    <h3>Umiejętności</h3>
                     <div class="skils">
                             <ul>
                                 <li>HTML</li>
@@ -126,23 +139,28 @@
                                 <li>Testy jednostkowe</li>
                             </ul>
                     </div>
-                    <h5>Edukacja</h5>
+                    <h3>Edukacja</h3>
                     <div class="education">
                         <ul>
                             <li>
-                                <h4>09/1996 – 06/2000</h4>
+                                <h5>09/1996 – 06/2000</h5>
                                 <p>Zespół Szkół Zawodowych nr 12 we Wrocławiu</p>
                                 <p>"Mechanik Maszyn i Urządzeń Przemysłowych"</p>
                             </li>
                         </ul>
                     </div>
-                   
                     <div class="interests">
-                        <h5>Zainteresowania</h5>
+                        <h3>Zainteresowania</h3>
                         <ul>
-                            <li>Bieganie – rekreacyjnie oraz starty w zawodach.</li>
-                            <li>Fotografowanie – bez osiągnięć, ale lubię to.</li>
-                            <li>Rozwój osobisty – wszystko co pomaga każdego dnia stawać się, choć odrobinę lepszym.</li>
+                            <li>
+                                <p>Bieganie – rekreacyjnie oraz starty w zawodach.</p>
+                            </li>
+                            <li>
+                                <p>Fotografowanie – bez osiągnięć, ale lubię to.</p>
+                            </li>
+                            <li>
+                                <p>Rozwój osobisty – wszystko co pomaga każdego dnia stawać się, choć odrobinę lepszym.</p>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -156,6 +174,16 @@
 
         <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
         <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
-        <script src="script.js"></script>
+
+<!-- Bootstrap -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        
+<!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script><script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+        
+<!-- script.js -->
+        <script async src="scripts.js" type="text/javascript"></script>
     </body>
 </html>

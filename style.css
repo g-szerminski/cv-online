@@ -34,13 +34,15 @@ body {
     height: auto;
     background: linear-gradient(260deg, #e5e7e8, #6c6e70);
     box-shadow: -30px 20px 20px #111010;
-    border-radius: 2px;    
+    border-radius: 2px;
+    color: black; 
 }
 
 .container {
     width: 100%;
     max-width: 800px;
-    margin: auto;
+    margin: 0 auto;
+    padding: 0;
 }   
 
 header {
@@ -219,22 +221,28 @@ a:hover, .contact:hover {
     margin: 0 10px;
 }
 
-h5 {
+h3 {
     display: flex;
     align-items: center;
     margin-top: 10px;
     text-transform: uppercase;
+    font-weight: bold;
     font-size: 20px;
 }
 
-h5::after {
+h3::after {
     content: '';
-    display: inline-block;
     height: 4px;
     margin-top: 3px;
     width: 100%;
     margin-left: 10px;
     background: linear-gradient(260deg, #01890f, #100560);
+}
+
+h4 {
+    margin-top: 10px;
+    text-align: left;
+    color: black;
 }
 
 /*h5 ~ ul {
@@ -246,17 +254,22 @@ ul {
     text-align: left;
 }
 
-h4 {
-    margin-top: 10px;
-    text-align: left;
-    color: black;
+li p {
+    margin: 0 10px 0 10px;
 }
+
+
 
 .skils {
     display: flex;
     text-align: left;
 }
 
-.interests {
-    margin-top: 14px;
+.language {
+    margin-top: 33px;
+}
+
+.animated {
+  animation-duration:3s;
+  animation-fill-mode: both;
 }
