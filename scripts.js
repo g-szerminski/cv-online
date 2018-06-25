@@ -1,11 +1,11 @@
-$("#header").on('click', function(){
+$("#animated").on('click', function(){
     $(this).animate({
             height:200,
             width:400,
             opacity: 0.5
         },
         {
-            duration: 1000, //czas animacji
+            duration: 5000, //czas animacji
             easing: 'easeOutBounce', //typ animacji
             complete: function() { //funkcja zwrotna
                 alert("koniec animacji");

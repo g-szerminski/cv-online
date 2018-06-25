@@ -186,6 +186,7 @@ a:hover, .contact:hover {
     border: solid 0.5 #fff;
     border-radius: 50%;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .camera:hover {
