@@ -14,10 +14,14 @@ $("#header").on('click', function(){
     );
 });
 
-var paragraphs = $('p, li').css('color', 'green');
+//var paragraphs = $('p, li').css('color', 'green');
 
-$(document).ready(function() {
-  $("address-card-o").click(function() {
-    alert("Witaj, świecie!");
-  });
+/*$(".contact").click(function(){
+    $(".address-card-o").after("<p>After</p> <p>link</p>");
+    document.location.href="https://github.com/g-szerminski";
 });
+
+$("#adress").click(function(){
+    $("#text").hide();
+});
+*/
