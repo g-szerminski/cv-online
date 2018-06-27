@@ -284,8 +284,8 @@ li p {
     display: block;
 }
 
-animated {
-  animation-duration:3s;
+.animated {
+  animation-duration: 3s;
 }
 
 .dropdown-menu {
