@@ -73,8 +73,8 @@ header img {
     position: relative;
     top: 5px;
     left: 5px;
-    /*-webkit-transform: rotate(-10deg);
-            transform: rotate(-10deg);*/
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
 }
 
 header img:hover {
@@ -184,7 +184,7 @@ h6 {
     border-radius: 50%;
 }
 
-a:hover, .contac:hover {
+a:hover, /*.contact:hover*/ {
     transform: rotateY(360deg) scale(1.4);
     transition: transform 1s;
     border: solid 0.5 #fff;
