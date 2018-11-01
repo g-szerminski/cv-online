@@ -184,7 +184,7 @@ h6 {
     border-radius: 50%;
 }
 
-a:hover, /*.contact:hover*/ {
+a:hover /*.contact:hover*/ {
     transform: rotateY(360deg) scale(1.4);
     transition: transform 1s;
     border: solid 0.5 #fff;
